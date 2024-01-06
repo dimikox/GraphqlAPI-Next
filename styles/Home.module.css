@@ -1,0 +1,60 @@
+.main {
+  padding: 40px 15px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding: 40px 30px;
+  }
+}
+.content {
+  font-family: var(--font-mono);
+  max-width: 920px;
+  margin: auto;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .content {
+    font-size: 16px;
+  }
+}
+.content h1 {
+  padding-bottom: 18px;
+}
+.content h2 {
+  padding-bottom: 12px;
+}
+.list {
+  padding-top: 22px;
+  padding-left: 15px;
+}
+.top {
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .top {
+    bottom: 25px;
+    right: 25px;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+.prev, .next {
+  text-align: center;
+}
+.prev button, .next button {
+  background-color: transparent;
+  border: 1px solid #000;
+  cursor: pointer;
+  padding: 8px 12px;
+  width: 120px;
+}
+
